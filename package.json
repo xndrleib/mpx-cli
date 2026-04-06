@@ -28,7 +28,7 @@
   },
   "scripts": {
     "test": "jest",
-    "prepare": "jest"
+    "prepublishOnly": "npm test"
   },
   "engines": {
     "node": ">=10"
